@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main-styles.css">
+    <title>Estemica</title>
+    <link rel="icon" href="../img/logo-mobile.webp" type="image/png">
+    <link  href="https://fonts.gstatic.com/s/questrial/v13/QdVUSTchPBm7nuUeVf70jMqB.woff2" as="font" type="font/woff2" crossorigin>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async=""></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="cookie-popup" id="cookiePopup">
+        <div class="cookie-content">
+            <p data-translate="cookieinfo">Nous utilisons des cookies pour améliorer l'expérience du site web. Pour en savoir plus sur la manière dont nous stockons et traitons vos données, consultez notre <a href="privacy.html">Politique de confidentialité</a>.</p>
+            <button id="acceptCookieBtn">Accepter</button>
+        </div>
+    </div>
+    <header>
+        <nav class="desktop-menu">
+            <ul class="menu">
+                <li><a href="#services" data-en="Services" data-fr="Services">Services</a></li>
+                <li><a href="#promo" data-en="Promo" data-fr="Promo">Promo</a></li>
+                <li><a href="gift-card.html" data-en="Gift Cards" data-fr="Carte-cadeau">Cartes-cadeaux</a></li>
+                <li class="logo">
+                    <a href="index.html">
+                        <img src="../img/logo-eng.webp" alt="Estemica esthetic">
+                    </a>
+                </li>
+                <li><a href="products.html">Produits</a></li>
+                <li><a href="#about-us">À propos</a></li>
+                <li><a href="#contact-us">Contactez-nous</a></li>
+            </ul>
+            <div class="language-switcher">
+                <button onclick="window.location.href='../index.html'" id="current-lang" class="lang-btn">
+                    🇨🇦 
+                </button>
+            </div>
+        </nav>
+
+        <nav class="mobile-menu">
+            <div class="mobile-header">
+                <div class="mobile-logo">
+    <a href="../index.html" class="language-button">
+        EN
+    </a>
+</div>
+                <div class="mobile-menu-content">
+                    <div class="logo-text"><a href="index.html"> <img src="../img/logo-eng.webp" alt="Estemica esthetic"></a></div>
+                </div>
+                <div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+                    &#9776;
+                </div>
+            </div>
+            <div class="mobile-menu-items" id="mobileMenu">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#promo">Promo</a></li>
+                    <li><a href="gift-card.html">Cartes-cadeaux</a></li>
+                    <li><a href="products.html">Produits</a></li>
+                    <li><a href="#about-us">À propos</a></li>
+                    <li><a href="#contact-us">Contactez-nous</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="hero-container">
+        <section class="hero">
+            <div class="hero-content">
+                <h2 data-translate="maintext1">Nous trouverons<br> la clé de votre peau</h2>
+                <h1 class="desktop-heading">
+                    Notre clinique de cosmétologie à Laval et Montréal vous propose des solutions innovantes pour la peau avec des soins personnalisés et une technologie de pointe.  
+                </h1>
+                <button  onclick="window.location.href='https://estemicaesthetic.setmore.com/'" class="book-button" style="width: 300px; height: 53px;">RÉSERVEZ VOTRE EXPÉRIENCE</button>
+            </div>   
+        </section>
+    </div>
+        
+    <section class="mobile-only">
+        <h1>
+            Notre clinique de cosmétologie à Laval et Montréal vous propose des solutions innovantes pour la peau avec des soins personnalisés et une technologie de pointe.  
+        </h1>
+    </section>
+        
+    <div class="content-wrapper">     
+        <section class="services" id="services">
+            <h3>Services</h3>
+            <div class="service-grid">
+                <button class="service-item" onclick="window.location.href='laser.html'"><span>LASER</span></button>
+                <button class="service-item" onclick="window.location.href='micronnedling.html'"><span>MICRONEEDLING</span></button>
+                <button class="service-item" onclick="window.location.href='oxygenating-facial.html'"><span>OXYGÉNATION<br>SOINS DU VISAGE</span></button>
+                <button class="service-item" onclick="window.location.href='massage.html'"><span>MASSAGE</span></button>
+                <button class="service-item" onclick="window.location.href='acne.html'"><span>ACNÉ</span></button>
+                <button class="service-item" onclick="window.location.href='rosacea.html'"><span>ROSACÉE</span></button>
+                <button class="service-item" onclick="window.location.href='anti-aging-pigmintation.html'"><span>ANTI-ÂGE<br>PIGMENTATION</span></button>
+                <button class="service-item" onclick="window.location.href='facials.html'"><span>SOINS DU VISAGE</span></button>
+            </div>
+        </section>
+
+        <section id="promo" class="promotions">
+            <h3>Promotions</h3>
+            <div class="promo-grid">
+
+                <div class="promo-item">
+                    <h4>Massage facial sculptant buccal</h4>
+                    <p></p>
+                    <h6>20 % de réduction</h6>
+                    <p>Profitez-en maintenant pour 100 $ au lieu de 120 $ </p>
+                    <a href="https://estemicaesthetic.setmore.com/services/a56c0259-92c2-4b3b-b115-7b6f0c390390?source=easyshare">RÉSERVEZ MAINTENANT</a>
+                </div>
+
+                <div class="promo-item">
+                    <h4>Soin éclat du visage</h4>
+                    <p>Parfait pour les mariées et avant les événements</p>
+                    <h6>20 % de réduction</h6>
+                    <p>Profitez-en maintenant pour 150 $ au lieu de 189 $</p>
+                    <a style="margin-top: 10px" href="https://estemicaesthetic.setmore.com/services/02473072-252d-4803-b475-a0c67989674e?source=easyshare">RÉSERVEZ MAINTENANT</a>
+                </div>
+
+                <div class="promo-item">
+                    <h4>Soin oxygénant</h4>
+                    <p>Force de Vie 02 Luzern</p>
+                    <h6>15 % de réduction</h6>
+                    <p>Profitez-en maintenant pour 170 $ au lieu de 200 $</p>
+                    <a href="https://estemicaesthetic.setmore.com/services/c405aa00-033e-40d3-8ae0-edb591c1fca9?source=easyshare">RÉSERVEZ MAINTENANT</a>
+                </div>
+            </div>
+        </section>
+            
+        <section id="about-us" class="about-us">
+            <h3>À propos de nous</h3>
+            <p>La clinique esthétique Estemica, située à Montréal et Laval, propose des soins de cosmétologie modernes et des traitements avancés pour la peau. Nous sommes spécialisés dans les soins anti-âge et anti-acné, les traitements au laser, l'épilation permanente, les peelings et les massages du visage. En utilisant uniquement des cosmétiques de haute qualité et des marques réputées telles que Thesera, DP Dermaceuticals, Dermaceuticals MG-Collection, et PROMOITALIA, nous garantissons les plus hauts standards de soins. Notre objectif est de vous aider à obtenir des résultats exceptionnels, en préservant une beauté rajeunie et éclatante grâce aux meilleurs soins pour votre peau.            </p>
+            
+            <div class="team-member-wrapper">
+                <div class="team-member">
+                    <img loading="lazy" src="../img/Yulia_Estemica.webp" alt="Yulia Kakabadze">
+                    <div class="team-member-info">
+                        <h4 style="margin-left: 35px;">Yulia Kakabadze</h4>
+                        <hr style="border: 1px solid #c0a080; width: 50%; margin-left: -30px;">
+                        <h5>Fondatrice, professionnelle médicale, esthéticienne</h5>
+                        <p>Yulia est une professionnelle médicale formée à l'international avec un diplôme médical de Russie et une expertise en dermatologie et pathologie, ayant acquis une vaste expérience dans les deux domaines. Après avoir déménagé au Canada, des études avancées en technologie biomédicale l'ont menée à une carrière en esthétique. Experte en traitements laser, microneedling, soins du visage, peelings et massages faciaux, Yulia se consacre aujourd'hui à offrir des soins personnalisés qui aident ses clients à obtenir une peau radieuse et éclatante, croyant que la santé de la peau renforce la confiance et le bonheur.                        </p>
+                    </div>
+                </div>
+        
+                <div class="team-member">
+                    <img loading="lazy" src="../img/Natalia_Estemica.webp" alt="Natalia Petrova">
+                    <div class="team-member-info">
+                        <h4 style="margin-left: 65%;">Natalia Petrova</h4>
+                        <hr style="border: 1px solid #c0a080; width: 50%; margin-left: 55%;">
+                        <h5 style="margin-left: 75%;">Esthéticienne</h5>
+                        <p>Esthéticienne médicale expérimentée avec plus de dix ans d'expérience dans l'industrie de la beauté et un diplôme canadien d'esthétique, spécialisée dans les soins de la peau. Ses compétences incluent les soins du visage et les peelings qui traitent les signes du vieillissement, tels que la pigmentation, les ridules et la déshydratation. Certifiée en épilation laser, photo-rajeunissement laser et microneedling, elle propose des solutions sûres et efficaces pour l'épilation, les problèmes de peau et les cicatrices d'acné. Engagée à partager sa passion pour la beauté et à offrir des résultats exceptionnels.                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-mobile">
+            <div class="contact-form">
+                <h2>Contactez-nous</h2>
+                <form action="../contact-form-handler\.php" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstname">Prénom</label>
+                            <input type="text" id="firstname" name="firstname" placeholder="Prénom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Nom</label>
+                            <input type="text" id="lastname" name="lastname" placeholder="Nom" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="Courriel">Courriel *</label>
+                            <input type="Courriel" id="Courriel" name="Courriel" placeholder="Courriel" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="Téléphone">Téléphone</label>
+                            <input type="tel" id="Téléphone" name="Téléphone" placeholder="Téléphone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Soumettre</button>
+                </form>
+            </div>                
+        </section>
+        <section id="contact-us" class="contact">
+            <div class="contact-wrapper">
+              <div class="contact-info">
+                <div class="clinic-hours">
+                  <h2>Heures d'ouverture :</h2>
+                  <p>Du mardi au vendredi : de 9h à 20h</p>
+                  <p> 
+                    Samedi - dimanche : 10h - 15h
+                    </p>
+                  <p>Lundi : Fermé</p>
+                </div>
+          
+                <div class="visit-us">
+                    <h2>Visitez-nous :</h2>
+                    <p id="westmount-location" style="cursor: pointer;">Localisation à Westmount</p>
+                    <p id="laval-location" style="cursor: pointer;">Localisation à Laval</p>
+                  </div>
+          
+                <div class="contact-us">
+                  <h2>Contactez-nous:</h2>
+                  <p><a href="tel:+15146386342">+1(514) 638 6342</a></p>
+                </div>
+          
+                <div class="follow-us">
+                  <h2>Suivez-nous :</h2>
+                  <div class="social-icons">
+                    <a href="https://www.instagram.com/yulia_estemica" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/p/Yulia-Estemica-61553435668702/?ref=xav_profile_banners_global_v2_page_test&_rdr" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/estemica_ca?s=21" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCG1KZ2w4RfPN46ZC2H_IDOA" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-form">
+                <h2>Contactez-nous</h2>
+                <form action="../contact-form-handler\.php" method="POST">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="firstname">Prénom</label>
+                      <input type="text" id="firstname" name="firstname" placeholder="Prénom" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="lastname">Nom</label>
+                      <input type="text" id="lastname" name="lastname" placeholder="Nom" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="Courriel">Courriel *</label>
+                      <input type="Courriel" id="Courriel" name="Courriel" placeholder="Courriel" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="Téléphone">Téléphone</label>
+                      <input type="tel" id="Téléphone" name="Téléphone" placeholder="Téléphone">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                  </div>
+                  <button type="submit" class="submit-btn">Soumettre</button>
+                </form>
+              </div>
+            </div>
+          </section>
+    </div>
+    </div>
+    <script defer src="../scripts.js"></script>
+<script defer src="../mobile.js"></script>
+    <link  href="https://fonts.gstatic.com/s/questrial/v13/QdVUSTchPBm7nuUeVf70jMqB.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async=""></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+    <style>@media (max-width: 768px) { .book-button { width: 200px !important;  height: 33px !important;}}</style>
+</body>
+</html>
