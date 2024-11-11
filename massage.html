@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estemica | Massage</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="main-styles.css">
+    <link rel="icon" href="img/logo-mobile.webp" type="image/png">
+</head>
+<body>
+    <header>
+      <nav class="desktop-menu">
+        <ul class="menu">
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#promo">Promo</a></li>
+            <li><a href="gift-card.html">Gift Cards</a></li>
+            <li class="logo">
+                <a href="index.html">
+                    <img loading="lazy" src="img/logo-eng.webp" alt="Estemica esthetic">
+                </a>
+            </li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="index.html#about-us">About Us</a></li>
+            <li><a href="index.html#contact-us">Contact Us</a></li>
+            
+                <div class="language-switcher">
+                    <button onclick="window.location.href='fr/massage.html'" id="current-lang" class="lang-btn">
+                        🇫🇷
+                    </button>
+                </div>
+                
+        </ul>
+    </nav>
+    
+        <nav class="mobile-menu">
+            <div class="mobile-header">
+                <div class="mobile-logo">
+    <a href="fr/massage.html" class="language-button">
+        FR
+    </a>
+</div>
+                <div class="mobile-menu-content">
+                    <div class="logo-text"><a href="index.html"> <img loading="lazy" src="img/logo-eng.webp" alt="Estemica esthetic"></a></div>
+                </div>
+                <div class="mobile-menu-icon" onclick="toggleMobileMenu()">
+                    &#9776; <!-- menu symbol -->
+                </div>
+            </div>
+            <div class="mobile-menu-items" id="mobileMenu">
+              <ul>
+                  <li><a href="index.html#services">Services</a></li>
+                  <li><a href="index.html#promo">Promo</a></li>
+                  <li><a href="gift-card.html">Gift Cards</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="index.html#about-us">About Us</a></li>
+                  <li><a href="index.html#contact-us">Contact Us</a></li>
+              </ul>
+          </div>
+        </nav>
+    </header>
+
+    <div class="healder">
+        <h1>Massage</h1>      
+  </div>
+    <main>
+
+        <div class="content">
+          <aside class="sidebar">
+              <ul>
+                  <li><a href="#description">Description</a></li>
+                  <li><a href="#description">Treatments</a></li>
+                  <li><a href="#packages">Packages</a></li>
+                  <li><a href="#video">Video</a></li>
+              </ul>
+          </aside>
+            </aside>
+            <section class="section" id="description">
+              <h2 class="h2question">Facial, Buccal, and Neck Massage in Estemica</h2>
+              <p>Facial, buccal, and neck massage is a powerful combination of techniques that relaxes facial muscles, reduces tension, and helps rejuvenate the skin. These massages work together to improve circulation, boost collagen production, and promote lymphatic drainage, leaving your skin smoother, firmer, and more radiant. The buccal massage focuses on deeper muscle stimulation, while the facial and neck massage enhance relaxation, reduce puffiness, and help contour the face and neck.</p>
+                <div class="button-container">
+                    <button onclick="window.location.href='buccal-facial-massage.html'" class="button">Buccal facial massage</button>
+                    <button onclick="window.location.href='facial-neck-massage.html'" class="button">Facial and neck massage</button>
+                </div>
+                </div>
+            </section>
+            <section class="newpromotions" style="margin-left: 28%; margin-bottom: -20px;">
+              <section id="packages"></section>
+              <div class="promo-grid">
+                  <div class="newpromo-item">
+                      <h4>Buccal massage package</h4>
+                      <p>Package of 4 sessions</p>
+                      <h6>SAVE $85</h6>
+                      <p>Price for package - $385</p>
+                      <a style="margin-top: 10px;" href="https://estemicaesthetic.setmore.com/services/7a21c701-719e-496e-acfc-8ab8a3acbf03?source=easyshare">BOOK NOW</a>
+                  </div>
+              </div>
+          </section>
+          <section id="video" class="section" style="margin-left: 23%;">
+            <video src="videos/deep-cleancing-peeling-montreal-laval-estemica.mp4" controls  type="video/mp4">
+        </section>
+        </div>
+    </main>
+    <section class="contact-mobile">
+      <div class="contact-form">
+          <h2>Contact us</h2>
+          <form action="contact-form-handler.php" method="POST">
+              <div class="form-row">
+                  <div class="form-group">
+                      <label for="firstname">First name</label>
+                      <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="lastname">Last name</label>
+                      <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+                  </div>
+              </div>
+              <div class="form-row">
+                  <div class="form-group">
+                      <label for="email">Email *</label>
+                      <input type="email" id="email" name="email" placeholder="Email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="phone">Phone</label>
+                      <input type="tel" id="phone" name="phone" placeholder="Phone">
+                  </div>
+              </div>
+              <div class="form-group">
+                  <label for="message">Message *</label>
+                  <textarea id="message" name="message" placeholder="Message" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Submit</button>
+          </form>
+      </div>                
+  </section>
+    <footer id="contact-us" class="contact">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="clinic-hours">
+              <h2>Clinic Hours:</h2>
+              <p>Tuesday – Friday: 9:00 AM – 8:00 PM</p>
+              <p>Saturday – Sunday: 10:00 AM – 3:00 PM</p>
+              <p>Monday: Closed</p>
+            </div>
+      
+            <div class="visit-us">
+              <h2>Visit Us:</h2>
+              <p id="westmount-location" style="cursor: pointer;">Westmount location</p>
+              <p id="laval-location" style="cursor: pointer;">Laval location</p>
+            </div>
+      
+            <div class="contact-us">
+              <h2>Contact Us:</h2>
+              <p><a href="tel:+15146386342">+1(514) 638 6342</a></p>
+              <p><a href="mailto:info@estemica.ca">info@estemica.ca</a></p>
+            </div>
+      
+            <div class="follow-us">
+              <h2>Follow Us:</h2>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/yulia_estemica" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/p/Yulia-Estemica-61553435668702/?ref=xav_profile_banners_global_v2_page_test&_rdr" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/estemica_ca?s=21" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCG1KZ2w4RfPN46ZC2H_IDOA" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h2>Contact us</h2>
+            <form action="contact-form-handler.php" method="POST">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstname">First name</label>
+                  <input type="text" id="firstname" name="firstname" placeholder="First name" required>
+                </div>
+                <div class="form-group">
+                  <label for="lastname">Last name</label>
+                  <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Phone">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+        <script defer src="scripts.js"></script>
+<script defer src="mobile.js"></script>
+<script defer src="product.js"></script>
+    <link  href="https://fonts.gstatic.com/s/questrial/v13/QdVUSTchPBm7nuUeVf70jMqB.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async=""></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   
+</body>
+</html>
