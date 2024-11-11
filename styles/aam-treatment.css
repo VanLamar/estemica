@@ -1,0 +1,587 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    background-color: #ffffff;
+    align-items: flex-start; 
+    gap: 40px; 
+}
+
+.content-section {
+    width: 669px;
+    margin-left: 5.2%;
+}
+
+.right-column {
+    width: 630px;
+    margin-right: 2.2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    font-size: 17px !important; 
+    line-height: 1.6; 
+    letter-spacing: 0.5px; 
+    border-radius: 5px; 
+    font-family: 'Questrial', sans-serif !important;
+    text-align: justify;
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 512px !important;
+}
+
+p {
+    font-size: 17px;
+    margin-left: 0;
+    width: 500px;
+    line-height: 1.6;
+}
+
+.session-info-box {
+    width: 512px !important;
+    height: 107px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.book-now {
+    width: 206px;
+    padding: 15px 0;
+    background-color: #C3924D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 9.8%;
+    margin-bottom: 0.1%;
+    font-weight:500;
+    font-size: 19px; 
+    font-family: 'Questrial', sans-serif;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-now:hover {
+    transform: scale(1.07);              
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); 
+}
+
+.session-info {
+    display: flex;
+    width: 50%;
+    margin-right: 1.9%;
+}
+
+.info-labels {
+    width: 60%; 
+    text-align: right; 
+    line-height: 2em; 
+    font-size: 17px;
+}
+
+main .h2treat {
+    margin-left: 5%;
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-family: 'Questrial';
+    font-size: 30px;
+}
+
+.info-values {
+    width: 60%;
+    text-align: left; 
+    line-height: 2em; 
+    font-size: 17px;
+}
+
+.results {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F0F0;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.results h3 {
+    font-size: 41px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-top: 1.9%;
+}
+
+.results .images-container {
+    display: flex;
+    gap: 50px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.results .images-container img {
+    width: 322px;  
+    height: 215px; 
+    object-fit: cover; 
+}
+
+
+
+.recommendation {
+    margin-top: 1.2em;
+    font-size: 14px;
+}
+
+.recommendation p {
+    width: 512px;
+}
+
+.video-section {
+    width: 512px;
+    height: 258px;
+    margin-top: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-section video{
+    width: 512px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+    margin-right: 9.2%;
+}
+
+.info-values span {
+    margin-left: 5px;
+}
+
+.before-after {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.before-after img {
+    width: 430px;
+    height: 139px;
+    object-fit: cover;
+    margin-bottom: 50px;
+    object-fit:fill !important;
+}
+
+.package-and-treatment {
+    width: 100%;
+}
+
+.package-info-box {
+    width: 90%;
+    height: 110px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.package {
+    width: 60%;
+    padding: 15px 15px;
+    background-color: #C3924D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight:500;
+    font-size: 20px; 
+    text-align: center;
+    margin-left: 11.6%; 
+    font-family: 'Questrial', sans-serif; 
+    white-space: nowrap; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.package:hover {
+    transform: scale(1.07);              
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); 
+}
+
+
+.package-price {
+    width: 50%;
+    text-align: right; 
+    margin-right: 10%; 
+    line-height: 2em; 
+    font-size: 17px; 
+    font-family: 'Questrial', sans-serif;
+}
+
+.treatment-course {
+    font-size: 17px;
+    line-height: 1.6em;
+    margin: 0 !important;
+    margin-top: 9.7% !important;
+}
+
+.treatment-course .full {
+    width: 150% !important;
+}
+
+.treatment-course p {
+    width: 100% !important;
+}
+
+.treatment-course h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -2% !important;
+    margin-right: 60px;
+}
+
+.treatment-course ul {
+    list-style-type: none;
+    padding-left: 0; 
+    margin-bottom: 0; 
+}
+
+.treatment-course li {
+    margin-bottom: 0.8em; 
+    padding-left: 0; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 40px; 
+}
+
+.content-section,
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    gap: 30px; 
+}
+
+.video-section {
+    margin-top: 80px; 
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+video {
+    width: 550px;
+    height: 300px;
+}
+
+.treatment-course {
+    margin-top: 80px; 
+}
+
+
+@media (max-width: 768px) {
+    iframe {
+        width: 90%;
+        max-width: 512px; 
+        min-width: 312px;
+        aspect-ratio: 16 / 9; 
+        height: auto;
+        display: block; 
+        margin: 0 auto; 
+        margin-bottom: 20px;
+        margin-top: -5px !important;
+        box-sizing: border-box; 
+        padding-left: 35px;
+    }
+    
+
+    .results h3 {
+        font-size: 28px; 
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .results {
+        margin-top: 10px !important;
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .results .images-container {
+        display: flex; 
+        overflow-x: auto; 
+        gap: 20px; 
+        padding-bottom: 10px; 
+        white-space: nowrap; 
+    }
+    
+    .results .images-container img {
+        width: 80% !important;
+        max-width: 280px !important;
+        height: auto !important;
+        flex-shrink: 0; 
+    }
+    
+
+    .results img {
+        width: 100% !important; 
+        max-width: 480px !important; 
+        height: auto !important; 
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .right-column, .content-section {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        justify-items: center;
+    }
+    
+    .session-info-box, .before-after, .package-info-box, .description, p {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .description, p {
+        width: 95% !important;
+    }
+    
+    .description, .treatment-course {
+        padding: 0 10px;
+        font-size: 13px !important;
+    }
+    
+    h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .session-info-box {
+        margin-top: 0 !important;
+        width: 95% !important;
+        min-width: 318px;
+        max-width: 362px;
+        height: auto;
+        padding: 10px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .book-now {
+        width: 45% !important;
+        padding: 10px 0;
+        margin: 0;
+        font-size: 13px;
+    }
+    
+    .session-info {
+        display: flex;
+        width: auto;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: space-between; 
+    }
+    
+    .info-labels {
+        width: 40%;
+        text-align: right;
+        line-height: 1.8em; 
+        white-space: nowrap;
+        margin-left: -2px;
+        font-size: 13px;
+    }
+    
+    .info-values {
+        width: 70%;
+        text-align: left;
+        line-height: 1.8em; 
+        white-space: nowrap;
+        font-size: 13px;
+    }
+    .info-values span {
+        margin-left: 5px;
+    }
+    
+    .before-after {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: auto; 
+        overflow-y: hidden; 
+        gap: 2px;
+        width: 95% !important;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding: 0 5px;
+        margin-left: 2% !important;
+        margin-top: 10px !important;
+    }
+    
+    .before-after img {
+        width: 400px !important;
+        max-width: 500px;
+        height: auto; 
+        object-fit: cover; 
+        scroll-snap-align: start;
+        flex-shrink: 0;
+        max-height: 400px; 
+    }
+
+    .before-after img:only-child {
+        width: 100% !important; 
+        max-width: 100% !important; 
+        height: auto; 
+        object-fit: cover;
+        max-height: none; 
+        scroll-snap-align: center; 
+        margin: 0 !important;
+    }
+    
+    center iframe {
+        margin-left: 0 !important;
+        margin-right: 20px !important;
+    }
+    
+    .recommendation {
+        margin-top: -17px !important;
+        text-align: left;
+        margin-top: 0;
+        width: 100% !important;
+        text-align: justify;
+    }
+    
+    .recommendation p {
+        padding: 0 10px;
+        margin-top: 10px;
+        font-size: 13px !important;
+    }
+    
+    .package-info-box {
+
+        height: auto;
+        padding: 10px;
+        margin-top: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 95% !important;
+        min-width: 318px;
+        max-width: 362px;
+
+    }
+    
+    .package {
+        width: 60%;
+        padding: 15px 0;
+        margin: 0;
+        font-size: 13px !important;
+    }
+    
+    .package-price {
+        margin-right: 10.1%; 
+        line-height: 2em; 
+        font-size: 14px; 
+    }
+    
+    .treatment-course h3 {
+        font-size: 16px !important;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    
+    .treatment-course {
+        margin-top: -10px !important;
+        justify-items: center;
+    }
+
+    .treatment-course .full {
+        width: 95% !important;
+        font-size: 13px !important;
+        margin: 0 !important;
+    }
+
+    .treatment-course p {
+        text-align: justify;
+        margin-left: 0 !important;
+        font-size: 13px !important;
+        text-wrap: unset !important;
+
+    }
+
+    .treatment-course ul {
+        text-align: justify;
+        margin-left: 0 !important;
+        font-size: 13px !important;
+        text-wrap: unset !important;
+
+    }
+    
+    .video-section {
+        width: 90% !important;
+        height: auto;
+        margin-top: -2% !important;
+        margin-bottom: 0px;
+        margin-left: 2% !important;
+    }
+    
+    video {
+        width: 400px;
+        height: 200px;
+    }
+
+    .package-and-treatment{
+        justify-items: center;
+        width: 100% !important;
+        margin: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    main .h2treat {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (min-width: 539px) and (max-width: 763px) {
+    .treatment-course {
+        max-width: 90% !important;
+        margin: -10px auto 0 auto !important; 
+        padding: 0 5% !important;
+    }
+
+    .recommendation {
+        max-width: 90% !important;
+        margin: -10px auto 0 auto !important; 
+        padding: 0 5% !important;
+    }
+}
